@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+header{
+	background-color: green;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+
+.container
+{
+	border: purple 1px solid;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding: 10px;
+	margin-right: 50px;
+}
+.btn{
+	display: inline;
+	color: white;
+	border: grey 1px solid;
+	background-color:#332929;
+}
+.list{
+	display: inline-block;
+	list-style:none;
+	border: black 1px solid;
+}
+.x{
+	background:red;
+	margin-left:2em;
+}
+#filter{
+	padding: .5em;
+}
