@@ -12,25 +12,27 @@
 
     <div class="content">
       <h1 id="header">Item Lister</h1>
-      <input type="text" name="searchBar" placeholder="search items.." id="filter">
+      <input type="text" name="searchBar" placeholder="search items.." id="filter" oninput="search()">
     </div>
   </header>
   <div class="container">
     <h2 class="title">Add Items</h2>
     <form>
-      <input type="text" id="bar">
+      <input type="text" id="bar" >
       <input type="submit" id="submit"class="btn" value="Submit">
     </form>
     <h2 class="title">Items</h2>
     <ul id="items" class="list-group">
-      <li class="list">Item <button class="x">X</button></li>
-      <li class="list">Item 2<button class="x">X</button></li>
-      <li class="list">Item 3<button class="x">X</button></li>
-      <li class="list">Item 4<button class="x">X</button></li>
+      <li class="list" id="item">Item <button class="x">X</button></li>
+      <li class="list" id='item 2'>Item 2<button class="x">X</button></li>
+      <li class="list" id="item 3">Item 3<button class="x">X</button></li>
+      <li class="list" id="item 4">Item 4<button class="x">X</button></li>
     </ul>
     <button class="btn" id="button">click</button></div><br>
-    <div id="output"></div>
-    <div id="box" style="background-color: grey;width:500px;height: 300px;"></div>
+    <div id="output">
+      <h3>mouseX:</h3><h3>mouseY:</h3>
+    </div>
+    <div id="box"  class="container" style="background-color: grey;"></div>
   
 
   <script src="./dom1.js"></script>
