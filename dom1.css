@@ -1,7 +1,6 @@
 body{
 	margin:0;
 	padding:0;
-	
 }
 header{
 	background-color: green;
@@ -19,6 +18,7 @@ header{
 	margin-left: 40px;
 	padding: 10px;
 	margin-right: 50px;
+	align-items: center;
 }
 .btn{
 	display: inline;
@@ -27,14 +27,24 @@ header{
 	background-color:#332929;
 }
 .list{
+	padding-left: 1em;
 	display: inline-block;
 	list-style:none;
+	border-radius: 15px;
 	border: black 1px solid;
 }
 .x{
 	background:red;
 	margin-left:2em;
+	border-radius: 15px;
 }
 #filter{
 	padding: .5em;
+}
+.pad{
+	background-color: grey;
+	 width: 280px;
+	 height: 280px;
+	 border: 1px black solid;
+	 margin: 20px 40px;
 }
